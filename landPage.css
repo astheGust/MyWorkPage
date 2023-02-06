@@ -1,0 +1,118 @@
+/*FormataçõesGerais*/
+*{margin:0;padding:0;text-decoration:none;}
+html{background-color: #5B8FB9;}
+body{width:100vw;height:100vh;font-size:16px;min-width:920px;min-height:360px;}
+
+i{font-size:2rem;cursor:pointer;}
+
+/*Cabeçalho*/
+#cabecalho{width:100%;height:10vh;background-color:#03003C;}
+
+#tituloPrincipal{position:absolute;right:50%;transform:translateX(50%);color:white;margin-top:20px;padding:6px;
+font-size:1.6rem;border-bottom:4px double white;border-radius:0 0 15px 15px;cursor:default;}
+
+#linkProjetos{font-size:1.2rem;margin:20px 20px 0 0;float:right;
+border:4px double white;padding:6px;border-radius:20px;
+background: linear-gradient(to right,#03003C,#5B8FB9);}
+
+#linkProjetos a h3{font-size:1.2rem;color:white}
+
+/*ConteudoMeio*/
+#conteudoPrincipal{width:100%;height:86vh;background:linear-gradient(to bottom,#03003C,#5B8FB9);}
+#conteudoPrincipalDiv{display:flex;width:80%;height:100%;margin:auto}
+
+/*Sobre*/
+#divSobre{width:40%;min-width:278px;height:80vh;min-height:544px;border:3px solid black;border-radius:20px;
+background:linear-gradient(to right, #1C82AD,#5B8FB9,#1C82AD);}
+
+#divSobre p{padding:10px;text-indent:20px;}
+#tituloSobre{text-align:center;margin-top:10px}
+
+
+/*Ícones*/
+.fa-html5{color:orange}
+.miniImagens{width:100%;height:20%;display:flex;justify-content:space-evenly;}
+
+.grandeIcone{width:100%;height:80%;position:relative;}
+
+.tituloIcone{position:absolute;right:50%;bottom:20px;transform:translateX(50%);text-align: center;}
+
+.fa-css3-alt{color:blue}
+.fa-js{color:yellow}
+
+.fa-file-word{color:lightblue}
+.fa-file-excel{color:green}
+.fa-file-powerpoint{color:red}
+
+.fa-c{color:darkred}
+.fa-java{color:red}
+.fa-php{color:darkblue}
+.fa-react{color:cyan}
+
+.miniImagens i{margin-top:6px}
+.grandeIcone i{font-size:4rem;
+position:absolute;right:50%;top:20%;transform:translate(50%);cursor:initial;}
+
+/*Conhecimentos*/
+#divConhecimentos{width:60%;margin-left:30px;}
+.blocoConhecimentos{width:100%;min-width:470px;height:30%;min-height:175px;margin-bottom:20px;}
+.divSlide{width:30%;background:linear-gradient(to right, #1C82AD,#5B8FB9,#1C82AD);}
+.divTexto{width:70%;padding:10px 20px;text-indent:20px;text-align:justify;
+background:linear-gradient(to right, #1C82AD,#5B8FB9,#1C82AD);}
+#caixaProg,#caixaOffice{display:flex;}
+
+#caixaInt{width:100%;height:32%;min-height:195px;border:3px solid black;border-radius:20px;
+background:linear-gradient(to right, #1C82AD,#5B8FB9,#1C82AD);}
+
+#icones{width:100%;display:flex;justify-content: space-evenly;}
+#icones i{font-size:2.5rem;padding:2px 0;cursor:initial;}
+
+#textInt{padding:3px 10px;}
+/*Bordas*/
+#slideProg,#slideInt{border:3px solid black;border-radius:20px 0 0 20px;
+border-right:none}
+#slideOffice{border:3px solid black;border-radius:0 20px 20px 0;
+border-left:none}
+
+#textProg{border:3px solid black;border-radius:0 20px 20px 0;
+border-left:none}
+#textOffice{border:3px solid black;border-radius:20px 0 0 20px;
+border-right:none}
+
+/*Rodapé*/
+#rodape{position:absolute;bottom:0;width:100%;height:4vh;background:#5B8FB9;}
+
+#email{float:left;padding:0 10px 0 10px}
+
+#iconesContatos{float:right;}
+
+#iconesContatos i{font-size:1.4rem;margin:0 10px}
+
+.fa-linkedin{color:blue}
+
+.fa-github{color:black}
+
+@media only screen and (max-width:1300px){
+    #divSobre span{display:none}
+}
+@media only screen and (max-width: 1190px){
+    body{font-size:14px}
+}
+
+@media only screen and (max-width:1000px){
+#tituloPrincipal{display:none;}
+#conteudoPrincipalDiv{display:block;}
+#divConhecimentos{margin:10px auto;}
+#divSobre{margin:0 auto;padding:10px 0;min-width:430px;}
+#divSobre span{display:block;}
+#rodape{position:absolute;top:0;background:none;margin-top:10px;}
+#iconesContatos{float:none;}
+}
+@media only screen and (max-height:690px){
+
+#rodape{position:absolute;top:0;background:none;margin-top:10px;}
+#iconesContatos{float:none;}
+}
+@media only screen and (max-height:640px){
+    #tituloPrincipal{display:none;}
+}

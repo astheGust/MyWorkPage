@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Minha Página</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='landPage.css'>
+    <script src="https://kit.fontawesome.com/75dd7735cf.js" crossorigin="anonymous"></script>
+    <script src='landPage.js'></script>
+</head>
+    <body>
+        <header id="conteudo">
+            <div id="cabecalho">
+                <span id="tituloPrincipal">Informações</span>
+                <nav id="linkProjetos"><a href="https://github.com/astheGust"><h3>Projetos</h3></a></nav>
+            </div>
+        </header>
+        <main id="conteudoPrincipal">
+            <div id="conteudoPrincipalDiv">
+                <div id="divSobre">
+                    <h3 id="tituloSobre">Um pouco sobre mim:</h3>
+                    <p>
+                            Olá, meu nome é Gustavo e estou a procura do meu primeiro emprego, tenho 18 anos,
+                        e sou muito interessado com tecnologia em geral, não posso te dizer que sou um especialista,
+                        mas as coisas que ja ví pessoas não terem conhecimento sobre computador é bizarro, de não saber
+                        desinstalar um programa, ou mesmo baixar um, eu tenho afinidade com computadores, isso me sinto
+                        confiante em dizer, este site fiz com minhas próprias mãos, utilizei nele apenas html5,Css3 e javascript,
+                        nada muito especial, eu me interesso por programação mas entendo que por falta de experiência na área,
+                        ela se torna mais dificil de começar no mercado de trabalho, então fui aprender softwares de escritório,
+                        como word, Excel e powerpoint, no momento estou estudando excel e powerBi, poís acredito que os 2 sejam,
+                        as ferramentas mais úteis e mais complexas do pacoteOffice,bem, tento me manter focado no que estou fazendo
+                        e tenho muita paciência com as pessoas, eu entendo que existem leigos em todas as áreas, óbvio que sou também
+                        na areá de programação, e pretendo aprender e me desenvolver nesses conhecimentos, tanto no Office, quanto programando,
+                        no canto superior direito estão os projetos que ja desenvolvi, não tem muitos e nem são super mega elaborados, mas estou praticando,
+                        la tem tanto programação quanto projetos do pacote Office, eu sei que quem quer que esteja contratando quer ver se tenho o conhecimento da qual
+                        meu curriculo promete.<span>falando em curriculo, lá também está o arquivo Pdf de tal.Eu não gosto desse tipo de formalidade quanto linguagem,
+                        mas eu acho que se fossemos levar em consideração eu possuo conhecimento Intermediário em Inglês, bem muitos termos seja em programação
+                        quanto no dia a dia, falamos em Inglês, então ja cheguei a estudar um pouco com um livro de gramática de Inglês.Esse é um pouco de mim,
+                        espero poder responder alguma mensagem de trabalho em breve, estou ancioso para fazer algo, e não só consumir.</span>
+                    </p>
+                </div>
+                <div id="divConhecimentos">
+                    <div class="blocoConhecimentos" id="caixaProg">
+                        <div class="divSlide" id="slideProg">
+                            <div class="miniImagens">
+                                <i onclick="textButton('html')" class="fa-brands fa-html5"></i>
+                                <i onclick="textButton('css')"class="fa-brands fa-css3-alt"></i>
+                                <i onclick="textButton('js')"class="fa-brands fa-js"></i>
+                            </div>
+                            <div class="grandeIcone">
+                                <i id="grandeIconeProg" class="fa-brands fa-html5"></i>
+                                <h3 id="tituloIconeProg" class="tituloIcone">Html</h3>
+                            </div>
+                        </div>
+                        <div onload="slideLoopProg()" class="divTexto" id="textProg">Sigla para HyperText Markup Language, ou, linguagem de marcação de hipertexto,
+                            ela é usada para construir a estrutura base de uma página web, o esqueleto de uma página web, onde podemos inserir 
+                            dados como texto, imagens, videos, entre outros, seu uso é geralmente acompanhado de alguma linguagem de programação,
+                             seja para estilizar esta página (css) ou adicionar funcionalidades e/ou comportamentos, como Javascript, Php,React...
+                        </div>
+                    </div>
+                    <div class="blocoConhecimentos" id="caixaOffice">
+                        <div onload="slideLoopOffice()" class="divTexto" id="textOffice">um editor de documento de texto completo, desenvolvida pela microsoft, é uma ferramenta básica
+                             porém profissional para trabalho em escritório, é possivel ler arquivos, edita-los e gravá-los para impressão,enviar esses documentos
+                              via web, email, inserir margens, imagens, até mesmo links da web,é uma aplicação simples ,porém completa.
+                        </div>
+                        <div class="divSlide" id="slideOffice">
+                            <div class="miniImagens">
+                                <i onclick="textButton('word')" class="fa-solid fa-file-word"></i>
+                                <i onclick="textButton('excel')" class="fa-solid fa-file-excel"></i>
+                                <i onclick="textButton('powerpoint')" class="fa-solid fa-file-powerpoint"></i>
+                            </div>
+                            <div class="grandeIcone">
+                                <i id="grandeIconeOffice" class="fa-solid fa-file-word"></i>
+                                <h3 id="tituloIconeOffice" class="tituloIcone">Word</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blocoConhecimentos" id="caixaInt">
+                        <div id="icones">
+                            <i class="fa-brands fa-c"></i>
+                            <i class="fa-brands fa-java"></i>
+                            <i class="fa-brands fa-php"></i>
+                            <i class="fa-brands fa-react"></i>
+                        </div>
+                        <div id="textInt">
+                            Essa linguagens ácima são as que estou interessado de de aprender á frente, elas não estão ordenadas por preferência,
+                            eu nem as conheço muito bem para isso, mas só tem uma que estou mais interessado dessas, a mais para direita, e nem é 
+                            uma linguagem de programação, é uma biblioteca javascript, pelo que sei ela possui comandos pré-definidos para maior
+                            facilidade de trabalho, o C e Java são linguagens voltadas para aplicações, ou seja, apps e jogos,não sou muito bom
+                            em desenho, para fazer jogos, mas tenho a curiosidade de tentar,tenho interesses em outras, e no powerBi da microsoft, mas esses são os principais.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer id="rodape">
+            <h3 id="email">anygustavocosta@gmail.com</h3>
+            <span id="iconesContatos">
+                <a href="https://www.linkedin.com/in/gustavo-costa-563145208/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.github.com/asthegust"><i class="fa-brands fa-github"></i></a>
+            </span>
+        </footer>
+    </body>
+</html>
